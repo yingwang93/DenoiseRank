@@ -1,0 +1,49 @@
+README Istella LETOR file
+Non-Commercial Use Only
+<<  LETOR: Benchmark Datasets for Learning to Rank >>
+
+
+_____________________________________________________________________
+
+Istella is glad to release the Istella Learning to Rank (LETOR) dataset to the public,
+used in the past to learn one of the stages of the Istella production ranking pipeline.
+To the best of our knowledge, this is the largest publicly available LETOR dataset,
+particularly useful for large-scale experiments on the efficiency and scalability of
+LETOR solutions. To use the dataset, you must read and accept the Istella LETOR Licence Agreement.
+By using the dataset, you agree to be bound by the terms of its license:
+Istella dataset is solely for non-commercial use.
+
+
+Datasets
+========
+
+1) Istella LETOR
+The Istella LETOR full dataset is composed of 33,018 queries and 220 features representing
+each query-document pair. It consists of 10,454,629 examples labeled with relevance
+judgments ranging from 0 (irrelevant) to 4 (perfectly relevant). The average number of per-query
+examples is 316. It has been splitted in train and test sets according to a 80%-20% scheme.
+If you want to use the full dataset in your research, we just kindly ask you to acknowledge
+Istella and cite the following publication in your research:
+  [1] C. Lucchese, F. M. Nardini, S. Orlando, R. Perego, N. Tonellotto, R. Venturini:
+      "Exploiting CPU SIMD Extensions to Speed-up Document Scoring with Tree Ensembles".
+      Proceedings of the 39th International ACM Conference on Research and Development
+      in Information Retrieval (SIGIR), July 2016 (to appear).
+
+2) Istella-S LETOR
+We also made available a smaller sample of the dataset (named Istella-S LETOR).
+As the Istella LETOR, it is composed of 33,018 queries and 220 features representing
+each query-document pair. Istella-S LETOR consists of 3,408,630 pairs produced by sampling
+irrelevant pairs to an average of 103 examples per query. It has been splitted in train,
+validation and test sets according to a 60%-20%-20% scheme.
+If you want to use the full dataset in your research, we just kindly ask you to acknowledge
+Istella and cite the following publication in your research:
+  [2] C. Lucchese, F. M. Nardini, S. Orlando, R. Perego, F. Silvestri, S. Trani:
+      "Post-Learning Optimization of Tree Ensembles for Efficient Ranking",
+      Proceedings of the 39th International ACM Conference on Research and Development
+      in Information Retrieval (SIGIR), July 2016 (to appear).
+
+
+
+May 15, 2016
+
+Page 1 of 1
